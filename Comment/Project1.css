@@ -1,0 +1,47 @@
+.container{
+    display: grid;
+    place-items: centre;
+    min-height: 400px;   
+
+}
+.floating-stack{
+   background-color: rgb(166, 255, 0);
+   color: black;
+    height: 80vh;
+    width: 320px;
+    border-radius: 1rem;
+    overflow-y:auto;
+
+}
+.floating-stack>dl{
+    margin: grid;
+    grid-template-columns: 2.5rem 1fr;
+    align-items: center;
+}
+.floating-stack dt{
+
+    position: sticky;
+    top: 0.5rem;
+    left: 0.5rem;
+    font-weight: bold;
+    background-color: rgb(245, 92, 199);
+    height: 2rem;
+    width: 2rem;
+    border-radius: 50%;
+    padding: 0.25rem ;
+    grid-column: 1;
+    display:inline-flex ;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+}
+.floating-stack dd{
+    grid-column: 2;
+    margin: 0;
+    padding: 0.7rem;
+}
+.floating-stack>dl:first-of-type>dd:first-of-type{
+    margin-top: 0.2rem;
+
+
+}

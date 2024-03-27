@@ -1,0 +1,100 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(148, 202, 47);
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+header{
+    color: white;
+    padding: 50px 20px;
+    background-size: cover;
+
+}
+header h1{
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+
+
+
+}
+header p{
+   font-size: 1.2rem; 
+   margin-bottom: 30px;
+}
+.action-button{
+    padding: 10px 20px;
+    background-color: aqua(111, 224, 126);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color0.35second;
+    
+}
+.action-button:hover{
+    
+    background-color: rgb(248, 26, 10);
+    transition-property: background-color;
+    transition-duration: 3s;
+}
+.features{
+    display:flex;
+    justify-content: center;
+   padding: 20px;
+
+}
+.feature{
+    margin: 10px;
+    padding: 20px;
+    background-color: rgb(223, 33, 213);
+    border-radius: 5px;
+    box-shadow: 0 2px 6px black;
+   transition-property: background-color;
+   transition-duration: 10s;
+  transition: transform 0.3s ease;
+  box-shadow: 0.3s ease;
+
+}
+.feature:hover{
+    background-color: rgb(19, 218, 52);
+    box-shadow: 0 4px 1px rem;
+
+}
+footer{
+    background-color: rgb(238, 142, 17);
+    padding: 10px;
+    text-align: center;
+
+}
+.button:hover{
+    animation: glow 0.3s infinite;
+
+
+}
+@keyframes glow {
+    0%,100%{
+        box-shadow: 0 0 40px   rgb(18, 224, 197);
+    }
+    50%{
+        box-shadow: 0 0 40px   greenyellow;
+
+    }  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

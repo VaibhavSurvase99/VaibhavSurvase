@@ -1,0 +1,45 @@
+/* body{
+    background-color:aqua ;
+    text-align: center;
+
+}
+h2{
+    font-style: italic;
+    color: rgb(250, 225, 215);
+    font-family: 'Courier New', Courier, monospace;
+}
+p{
+ font-size: 20px; 
+}
+.blue{
+    color: rgba(62, 32, 231, 0.938);
+}
+.red{
+    color: Red;
+}  
+.green{
+    color: green;
+} */
+
+
+.fruit{
+    font-size: medium;
+    color: rgb(187, 255, 0);
+    font-family: 'Courier New', Courier, monospace;
+}
+.mango{
+    color: rgb(251, 255, 0);
+    padding: 10px;
+}
+.apple{
+    color: red;
+    padding: 10px;
+
+}
+.orange{
+    color: orangered;
+    padding: 10px;
+}
+p{
+    color: rgb(157, 255, 0);
+}
